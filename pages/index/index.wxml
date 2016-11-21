@@ -1,14 +1,15 @@
 <!--index.wxml-->
-<view class="page bg-soft full-size">
-  <view  bindtap="bindViewTap" class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto" bindtap="testToast">{{motto}}</text>
-  </view>
-  <view class="usermotto">
-    <navigator url="../sample/page1">page1</navigator>
-    <navigator url="../tab/home">tab/home</navigator>
-  </view>
+<view class="page">
+  <navigator url="../logs/logs">
+    <view class="pane border-bottom">logs</view>
+  </navigator>
+  <navigator url="../tab/home">
+    <view class="pane border-bottom">home</view>
+  </navigator>
+  <navigator url="../sample/page1">
+    <view class="pane border-bottom">page1</view>
+  </navigator>
+  <navigator url="../sample/form">
+    <view class="pane border-bottom">form</view>
+  </navigator>
 </view>
