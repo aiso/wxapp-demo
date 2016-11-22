@@ -9,6 +9,9 @@
   <navigator url="../sample/page1">
     <view class="pane border-bottom">page1</view>
   </navigator>
+  <navigator url="../sample/page2">
+    <view class="pane border-bottom">page2</view>
+  </navigator>
   <navigator url="../sample/form">
     <view class="pane border-bottom">form</view>
   </navigator>
