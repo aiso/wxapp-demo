@@ -12,6 +12,9 @@
   <navigator url="../sample/page2">
     <view class="pane border-bottom">page2</view>
   </navigator>
+  <navigator url="../sample/page3">
+    <view class="pane border-bottom">page3</view>
+  </navigator>
   <navigator url="../sample/form">
     <view class="pane border-bottom">form</view>
   </navigator>
